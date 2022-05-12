@@ -11,6 +11,9 @@
 		A14E2B54282D3B50001B003F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E2B53282D3B50001B003F /* ContentView.swift */; };
 		A14E2B56282D3B56001B003F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14E2B55282D3B56001B003F /* Assets.xcassets */; };
 		A14E2B59282D3B56001B003F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14E2B58282D3B56001B003F /* Preview Assets.xcassets */; };
+		A14E2B60282D3D27001B003F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E2B5F282D3D27001B003F /* BackgroundView.swift */; };
+		A14E2B62282D3E0F001B003F /* SignalTrafficLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E2B61282D3E0F001B003F /* SignalTrafficLightsView.swift */; };
+		A14E2B64282D4012001B003F /* LogicTrafficLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E2B63282D4012001B003F /* LogicTrafficLightsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A14E2B53282D3B50001B003F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A14E2B55282D3B56001B003F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14E2B58282D3B56001B003F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A14E2B5F282D3D27001B003F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		A14E2B61282D3E0F001B003F /* SignalTrafficLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTrafficLightsView.swift; sourceTree = "<group>"; };
+		A14E2B63282D4012001B003F /* LogicTrafficLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicTrafficLightsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A14E2B51282D3B50001B003F /* TrafficLights_SwiftUIApp.swift */,
 				A14E2B53282D3B50001B003F /* ContentView.swift */,
+				A14E2B63282D4012001B003F /* LogicTrafficLightsView.swift */,
+				A14E2B5F282D3D27001B003F /* BackgroundView.swift */,
+				A14E2B61282D3E0F001B003F /* SignalTrafficLightsView.swift */,
 				A14E2B55282D3B56001B003F /* Assets.xcassets */,
 				A14E2B57282D3B56001B003F /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14E2B60282D3D27001B003F /* BackgroundView.swift in Sources */,
+				A14E2B64282D4012001B003F /* LogicTrafficLightsView.swift in Sources */,
 				A14E2B54282D3B50001B003F /* ContentView.swift in Sources */,
 				A14E2B52282D3B50001B003F /* TrafficLights_SwiftUIApp.swift in Sources */,
+				A14E2B62282D3E0F001B003F /* SignalTrafficLightsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
